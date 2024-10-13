@@ -1,0 +1,131 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f4f4f4;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+
+h1, h2  {
+    color: #2c3e50;
+    margin: 20px 0;
+    text-align: center;
+}
+
+/* Title */
+#Title {
+    font-size: 3em;
+    font-weight: bold;
+    margin-top: 20px;
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.3);
+}
+
+/* Subtitle */
+.subtitle {
+    font-size: 1.8em;
+    text-decoration: noe;
+    font-weight: bold;
+}
+
+/* Links */
+a {
+    color: #3498db;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+/* Hovering over links */
+a:hover {
+    color: #2ecc71;
+}
+
+/* Lists */
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background-color: #ecf0f1;
+    padding: 10px;
+    margin: 5px 0;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+li:hover {
+    background-color: #bdc3c7;
+}
+
+/* Ingredients and Directions */
+section {
+    margin: 20px auto;
+    width: 80%;
+}
+
+ul, ol {
+    margin: 10px 0;
+    padding: 10px;
+}
+
+li, p {
+    margin-bottom: 10px;
+}
+
+img {
+    display: block;
+    max-width: 100%;
+    height: auto;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.back-link {
+    display: inline-block;
+    background-color: #e74c3c;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+    font-size: 1em;
+    margin: 20px auto;
+    transition: background-color 0.3s ease;
+}
+
+.back-link:hover {
+    background-color: #c0392b;
+}
+
+/* Step List */
+ol li {
+    background-color: #ecf0f1;
+    border-radius: 8px;
+    padding: 10px;
+    margin-bottom: 10px;
+    border-left: 5px solid #e74c3c;
+}
+
+strong {
+    color: #e67e22;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    margin-top: 50px;
+    padding: 20px 0;
+    background-color: #2c3e50;
+    color: #ecf0f1;
+}
+
+footer a {
+    color: #ecf0f1;
+}
+
+footer a:hover {
+    color: #bdc3c7;
+}
